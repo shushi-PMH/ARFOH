@@ -41,9 +41,6 @@ print soup.find("a",{href:re.compile("\/enet\/do/usr\/search\/hospital\;jsession
 soup.prettify()
 
 # 正規表現あるいはBeautifulsoupの関数でセッションIDをGETして、変数に格納する。
-# まずは、最初の
-
-
 
 # 次に、リンクを開いてみる。
 # br.page.link_with(:text => "ここをクリックしたい").click
